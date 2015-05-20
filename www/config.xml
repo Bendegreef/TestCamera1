@@ -5,14 +5,14 @@
         id        = "be.erasmushogeschool.hello-camera"
         version   = "1.0.0">
 
-    <name>Hello Camera</name>
+    <name>CameraTest1</name>
 
     <description>
-        Hello Camera sample application that uses the device's camera.
+        CameraTest1
     </description>
 
-    <author href="http://erasmushogeschool.be" email="jan.klaas.van.den.meersche@ehb.be">
-        Jan Klaas Van Den Meersche
+    <author href="http://erasmushogeschool.be" email="Ben.de.greef@student.ehb.Be">
+        BDG
     </author>
     
     <!-- Platforms -->

@@ -12,13 +12,16 @@ document.addEventListener("deviceready", onDeviceReady, false);
 // Cordova is ready to be used!
 //
 function onDeviceReady() {
+   console.log(device);
    console.log(window.device);
    console.log(window.plugins);
     alert('device ready');
-    document.getElementById("takePicture").onclick = document.takePicture();
+    StatusBar.hide();
+    document.getElementById("takePicture").addEventListener("click", takePicture, false);
 }
 
 function takePicture(e) {
+	alert('take pic');
     navigator.camera.getPicture(onSuccess, onFail, {
         quality: 50,
         destinationType: navigator.camera.DestinationType.DATA_URL

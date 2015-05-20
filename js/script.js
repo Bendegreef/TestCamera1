@@ -12,11 +12,9 @@ document.addEventListener("deviceready", onDeviceReady, false);
 // Cordova is ready to be used!
 //
 function onDeviceReady() {
-   console.log(device);
    console.log(window.device);
    console.log(window.plugins);
     alert('device ready');
-    StatusBar.hide();
     document.getElementById("takePicture").onclick = takePicture;
 }
 

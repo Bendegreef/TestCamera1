@@ -16,7 +16,7 @@ function onDeviceReady() {
    console.log(window.plugins);
     alert('device ready');
 
-    document.getElementById("#takePicture").addEventListener("click", takePicture, false);
+    document.getElementById("takePicture").addEventListener("click", takePicture, false);
 }
 
 function takePicture(e) {

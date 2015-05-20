@@ -22,7 +22,10 @@ function onDeviceReady() {
 function takePicture(e) {
     navigator.camera.getPicture(onSuccess, onFail, {
         quality: 50,
-        destinationType: navigator.camera.DestinationType.DATA_URL
+        destinationType: navigator.camera.DestinationType.DATA_URL,
+		allowEdit: true,
+		targetWidth: 360,
+		targetHeight: 360
     });
 }
 
